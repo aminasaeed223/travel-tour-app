@@ -41,14 +41,14 @@
   box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
 
 }
-.image img :nth-child(2){
+.image img:nth-child(2) {
     position: absolute;
     top: -10%;
     right:0
 
 
 }
-@media and screen(max-width:850px){
+@media screen and (max-width: 850px) {
     .destination{
         margin: 4rem  2rem;
     }
@@ -59,7 +59,7 @@
         margin-top: 2.5rem;
 
       }
-      ..des-text {
+      .des-text {
         width: 100%;
       }
       .image{
