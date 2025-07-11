@@ -2,7 +2,6 @@
   margin: 4rem 6rem;
   color: #2a2a2a;
 }
-
 .form-con form {
   padding-top: 3rem;
   display: flex;
@@ -12,17 +11,18 @@
   margin: auto;
 }
 
-.form-con form input,
-.form-con form textarea {
+.form input {
   height: 3rem;
   padding: 0 1rem;
   margin-bottom: 2rem;
   border-radius: 0.3rem;
   border: 1px solid #2a2a2a;
 }
-
-.form-con form textarea {
-  height: 6rem;
+.form textarea {
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.3rem;
+  border: 1px solid #2a2a2a;
 }
 
 .form-con button {
@@ -30,18 +30,18 @@
   margin-top: 10px;
   background: #222;
   color: #fff;
-  cursor: pointer;
 }
-
 .form-con button:hover {
+  display: inline;
+  margin-top: 10px;
   background: #444;
+  color: #fff;
 }
 
 @media screen and (max-width: 850px) {
   .form-con {
     margin: 4rem 2rem;
   }
-
   .form-con form {
     padding-top: 2rem;
     width: 90%;
